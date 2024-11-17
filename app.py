@@ -134,4 +134,4 @@ def serve_video(filename):
     return send_from_directory(FRONTEND_VIDEOS_FOLDER, filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
